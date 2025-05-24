@@ -1,28 +1,16 @@
-Absolutely! Here's your complete, professional-grade `README.md` for your **Customer Churn Prediction API** project, including:
-
-* 📌 Project Overview
-* 📊 Problem Statement
-* 🏗️ Project Structure (box/tree format)
-* ⚙️ Setup Instructions
-* 🐳 Docker & Deployment
-* 🌐 API Usage
-* 📬 Example Response
-* 📚 Tech Stack
-* 🎓 What I Learned
-* 📌 Next Steps
-
----
-
 ````markdown
 # 💼 Customer Churn Prediction API
 
-This project is an end-to-end **Machine Learning deployment pipeline** for predicting whether a customer is likely to churn. It includes data preprocessing, model training, containerization with Docker, and deployment to a cloud service via Render.
+This project is an end-to-end **Machine Learning deployment pipeline** for predicting whether a customer is likely to churn. 
+It includes data preprocessing, model training, containerization with Docker, and deployment to a cloud service via Render.
 
 ---
 
 ## 📊 Problem Statement
 
-Customer churn is one of the biggest problems for businesses in retaining clients. The goal is to build an API that can **predict whether a customer will churn** based on certain features like tenure, monthly charges, internet service, contract type, and more.
+Customer churn is one of the biggest problems for businesses in retaining clients.
+The goal is to build an API that can **predict whether a customer will churn** based on certain 
+features like tenure, monthly charges, internet service, contract type, and more.
 
 ---
 
