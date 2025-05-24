@@ -209,10 +209,3 @@ Try it with tools like:
 ## 💬 Feedback
 
 Open to contributions, suggestions, or feedback. Fork the repo and feel free to explore!
-
-```
-
----
-
-Let me know when you're ready, and we’ll move to the next phase: **logging, testing, CI/CD or frontend** — your call!
-```
