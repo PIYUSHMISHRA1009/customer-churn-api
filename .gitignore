@@ -7,11 +7,18 @@ venv/
 .ipynb_checkpoints/
 
 # DVC
-data/
-*.dvc
+# Ignore everything in data folder...
+data/*
+# ...except processed models
+!data/processed/
+!data/processed/model.joblib
+!data/processed/preprocessor.joblib
+
 
 # Flask
 *.log
 
 # VS Code
 .vscode/
+
+.DS_Store
