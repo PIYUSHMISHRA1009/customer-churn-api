@@ -1,4 +1,5 @@
 from fastapi import FastAPI, HTTPException, Request
+from fastapi.middleware.cors import CORSMiddleware  # <-- Added CORS
 from src.inference_api.schema import CustomerData
 import joblib
 import pandas as pd
@@ -53,6 +54,17 @@ async def lifespan(app: FastAPI):
     logging.info("🛑 API is shutting down...")
 
 app = FastAPI(lifespan=lifespan)
+
+# -------------------------------
+# Enable CORS for Frontend Access
+# -------------------------------
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # You can replace "*" with your frontend URL
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 # -------------------------------
 # API Endpoints
