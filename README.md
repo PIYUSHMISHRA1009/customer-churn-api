@@ -1,4 +1,3 @@
-````markdown
 # 💼 Customer Churn Prediction API
 
 This project is an end-to-end **Machine Learning deployment pipeline** for predicting whether a customer is likely to churn. 
@@ -34,7 +33,7 @@ mlops-customer-churn/
 ├── .gitignore                 # Files and folders to exclude from Git
 ├── README.md                  # Project overview and instructions (this file)
 └── (Optional) notebooks/      # Jupyter notebooks used during EDA/training
-````
+```
 
 ---
 
@@ -91,7 +90,11 @@ Now open: [http://localhost:5000](http://localhost:5000)
 
 ## ☁️ Cloud Deployment (Render)
 
-Deployed at: [https://customer-churn-api-ako5.onrender.com](https://customer-churn-api-ako5.onrender.com)
+**🔗 API Live At:**  
+[https://customer-churn-api-ako5.onrender.com](https://customer-churn-api-ako5.onrender.com)
+
+**🌐 Frontend UI:**  
+[https://churn-frontend-ui.onrender.com](https://churn-frontend-ui.onrender.com)
 
 Render picks up changes from GitHub and automatically rebuilds the container using the `Dockerfile`.
 
@@ -169,24 +172,24 @@ POST /predict
 
 ## ✅ Completed Phases
 
-✔️ Data cleaning & feature engineering
-✔️ Model training & evaluation
-✔️ Saved model & preprocessor as `joblib` files
-✔️ Built Flask API (`/predict`)
-✔️ Dockerized the app
-✔️ Pushed code & artifacts to GitHub
-✔️ Successfully deployed API on Render
-✔️ Tested with real-time predictions
+✔️ Data cleaning & feature engineering  
+✔️ Model training & evaluation  
+✔️ Saved model & preprocessor as `joblib` files  
+✔️ Built Flask API (`/predict`)  
+✔️ Dockerized the app  
+✔️ Pushed code & artifacts to GitHub  
+✔️ Successfully deployed API on Render  
+✔️ Connected with a live frontend for predictions  
+✔️ Tested with real-time predictions  
 
 ---
 
 ## 🚧 Next Steps (TODO)
 
-* 📈 Add logging & monitoring for production
-* 🧪 Write unit tests and setup CI/CD with GitHub Actions
-* 📤 Connect to a frontend for live predictions
-* 📊 Track model performance over time (MLflow, DVC, or EvidentlyAI)
-* 📦 Package this project as a PyPI library
+* 📈 Add logging & monitoring for production  
+* 🧪 Write unit tests and setup CI/CD with GitHub Actions  
+* 📊 Track model performance over time (MLflow, DVC, or EvidentlyAI)  
+* 📦 Package this project as a PyPI library  
 
 ---
 
@@ -198,7 +201,11 @@ You can use this API by sending a POST request to:
 https://customer-churn-api-ako5.onrender.com/predict
 ```
 
-Try it with tools like:
+Or try the live web UI:
+
+**👉 [https://churn-frontend-ui.onrender.com](https://churn-frontend-ui.onrender.com)**
+
+Use tools like:
 
 * Postman
 * cURL
